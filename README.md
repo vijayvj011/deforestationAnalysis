@@ -74,13 +74,6 @@ My full analyses lead me to the following conclusions:
 
 - Employ efforts to enforce stricter fire restrictions during strong firespot season to reduce deforestation.
 
-## Recommendations for Further Analysis
-
-- Integrate more features in future modeling such as annual soybean yields, annual timber production amounts, and number of cattle ranches in Brazil per year. Soybean production, the manufacturing of timber, and the formations of cattle ranches impact the quantities of Amazonian deforestation in Brazil.
-
-- Incorporate and analyze satellite image classification information that show different activities relating to whether or not deforestation is occurring at given times. These images aid in determining when deforestation is happening.
-
-- Obtain and utilize COVID-19 data to discuss the effects of COVID-19 on deforestation.
 
 ## For More Information
 
