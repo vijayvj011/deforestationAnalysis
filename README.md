@@ -95,10 +95,7 @@ My full analyses lead me to the following conclusions:
 
 - See the full analysis of my findings in Amazon.ipynb
 
-- Read some additional analyses and view more exciting visualizations in a forest fire blog at 
-https://jmstipanowich.medium.com/fire-outbreaks-in-the-amazon-how-they-have-changed-from-1999-2019-and-what-to-do-about-them-in-the-3b020e45e5bf
-
-- Contact me at jmstipanowich@gmail.com
+- Contact me at vijaykumar.d876@gmail.com
 
 ## Repository Structure
 
