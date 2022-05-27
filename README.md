@@ -1,7 +1,5 @@
 # The Amazon Rainforest: Is Deforestation Increasing?
 
-![Amazonforest.img](Images/Bernardo-Flores_Barcelos_6.jpg)
-
 Author: Vijay Kumar
 
 ## Project Overview
@@ -23,9 +21,7 @@ All data I included occurred between the years 1999 and 2019.
 
 ## Data Preparation
 
-In order to start to distinguish if Amazon deforestation is increasing, I created a plot of the total deforestated area across all Brazilian states in the Amazon for each year between 2004-2019. The plot is below:
-
-![Deforestation.img](Images/Amazondeforestationtotals.png)
+In order to start to distinguish if Amazon deforestation is increasing, I created a plot of the total deforestated area across all Brazilian states in the Amazon for each year between 2004-2019. The plot is given in the images file.
 
 Deforestation generally decreased from 2004-2012, but then increased in more current time of 2012-2019. 
 
@@ -33,9 +29,7 @@ I desired to identify how Amazon deforestation totals associate with each Brazil
 
 Weather phenomena was found to have little correlation with Amazon deforestation between 1999-2019 (see Amazon.ipynb for further details) so I did not include this element for analysis when I went on to further analysis and modeling. Overall, there was a lack of a strong relationship between weather phenomena and Amazonian deforestation, which suggests more human causes of deforestation than natural causes.
 
-I created a dataset to look at the correlations of the other deforestation-related features in comparison with Amazon deforestation as a whole. My plot of the correlations is as follows:
-
-![Correlation.png](Images/correlation.png)
+I created a dataset to look at the correlations of the other deforestation-related features in comparison with Amazon deforestation as a whole. My plot of the correlations in the images file.
 
 The deforestation amounts for the Brazilian states of Mato Grosso, Para, and Rondonia were the most correlated with total Amazon deforestation amounts across all states.  These states are fairly large states so holding high correlation percentages with total Amazonian deforestation is not unusual. Firespots were about 83% correlated with the total Amazon deforestation suggesting a strong relationship between fire outbreaks and Amazonian deforestation. Fire outbreaks may lead to deforestation. Population and GDP per capita(US dollars) had strong inverse correlations with total deforestation. Population was about 71% inversely correlated with total Amazon deforestation and GDP per capita(US dollars) was about 86% inversely correlated with total Amazon deforestation. Population decreasing with more Amazon deforestation sadly makes sense. GDP per capita(US dollars) decreasing with increasing deforestation of the Amazon could be concerning.
 
@@ -57,17 +51,14 @@ Fire outbreaks had a predominant decline in volume between the years 1999-2019, 
 
 For my second model creation I designed a function that formulates a dataframe with the number of firespots per month for a given year in a dataset and includes the minimum, maximum, and mean number of firespots per month for each of the previous years in the dataset combined to analyze how one given year of monthly firespot totals compares to other previous years of monthly firespots across all states.
 
-I tested my dataframe function on the year 2019 because I used that more current year to do a lot of modeling analyses and comprehend firespots correlations between that year and previous years. I desired to know how 2019 compared to previous years in terms of firespot monthly totals to better understand if deforestation is increasing over time with relation to firespots. I graphed my analysis as well:
+I tested my dataframe function on the year 2019 because I used that more current year to do a lot of modeling analyses and comprehend firespots correlations between that year and previous years. I desired to know how 2019 compared to previous years in terms of firespot monthly totals to better understand if deforestation is increasing over time with relation to firespots. I graphed my analysis as well and provided the image in the images file.
 
-![YearlyFires.png](Images/yearlyfires2019.png)
 
 The year 2019 generally had a lower than average number of firespots compared to total firespot averages for previous years between 1999-2019. However, the months of March and April had a number of firespots in 2019 that was higher than the maximum number of firespots for those months in previous years. The high number of firespots in March and April of 2019 suggests there are still times when firespot totals are reaching dangerously high levels. The numbers could be significantly problematic when related to the deforestation of the Amazon in Brazil for the future.
 
 ### Modeling 3:
 
-For the next successive models, I continued to look at firespots and I generated time series for each Brazilian state encompassing the Amazon that displayed fire outbreak amounts per month and year. I graphed the time series together below:
-
-![StateTimeSeries.png](Images/statetimeseries.png)
+For the next successive models, I continued to look at firespots and I generated time series for each Brazilian state encompassing the Amazon that displayed fire outbreak amounts per month and year. I graphed the time series together in the images file.
 
 The group of time series graph above showed that most all of the Brazilian states follow similar seasonality trends. The Brazilian states of Mato Grosso, Para, and Rondonia appear to lead the group of trends with their high firespot totals. Seasonal firespot trends may influence seasonal deforestation totals.
 
