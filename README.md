@@ -2,15 +2,12 @@
 
 ![Amazonforest.img](Images/Bernardo-Flores_Barcelos_6.jpg)
 
-Author: James Stipanowich
+Author: Vijay Kumar
 
 ## Project Overview
 
 The Amazon rainforest is disappearing at an alarming rate in Brazil. Each year thousands of kilometers of rainforest are destroyed from deforestation. The Amazon rainforest is the world's biggest rainforest. The Amazon rainforest offers a huge ecosystem containing about 30 percent of the world's species and sustaining life for people, animals, and plants across many Brazilian states. What happens when the developing environment in this area of the world is destroyed? What massive repercussions could there be for the world? How do many aspects of life such as the conquests of forest fires, the configurations of weather phenomena, the growth of population, and the expansion of GDP influence the deforestation of the Amazon? Will the Amazon rainforest still exist in years to come if deforestation continues? 
 
-## Business Problem
-
-For this project I am acting as a data scientist with an environmental conservation organization in Brazil to prevent unneccessary effects of deforestation by determining if Amazon deforestation is increasing. I intend to determine what factors influence the deforestation of the Amazon. I plan to conclude whether forest fires are correlated with deforestation, and what patterns and information lie within the occurrences of forest fires across a number of Brazilian states that may impact deforestation.
 
 ## The Data
 
